@@ -11,7 +11,7 @@ const path = require("path");
 const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
-    : process.env.DATABASE_URL;
+    : process.env.DATABASE_URL;https://nexus-aiallanprog25.onrender.com
 module.exports = { session: process.env.SESSION_ID || 'nexus~Vv1RSAja#3peJg0IeEJwlP44f8qkMazgszVkxcc1s6sM6XW72gXc',
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "256788501042",
